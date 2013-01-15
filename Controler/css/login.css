@@ -1,0 +1,92 @@
+﻿
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #c0c0c0;
+}
+
+#main {
+	width: 778px;
+	height: 600px;
+	background: url(../images/index_bg_blue.jpg) center top no-repeat;
+	margin: 30px auto 0 auto;
+	position: relative;
+}
+
+#notice {
+	position: absolute;
+	bottom: 106px;
+	left: 26px;
+	width: 334px;
+	height: 160px;
+	padding: 0;
+	margin: 0;
+}
+
+#notice p {
+	color:#666;
+	font-size:12px;
+	line-height:19px;
+	
+	margin:0px;
+	padding:0px;
+	margin-left:30px;
+}
+
+#notice li {
+	list-style: decimal;
+	color: #666;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+#notice li a {
+	color: #666;
+	text-decoration: none;
+}
+
+#notice li a:hover {
+	color: #f60;
+	text-decoration: underline;
+}
+
+#username,#password {
+	width: 120px;
+	height: 16px;
+	position: absolute;
+	bottom: 294px;
+	right: 80px;
+}
+
+#username {
+	
+}
+
+#password {
+	bottom: 260px;
+}
+
+#submit,#reset {
+	color: #666;
+	border: 1px solid #ccc;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0;
+	position: absolute;
+	bottom: 226px;
+	right: 88px;
+	cursor: pointer;
+}
+
+#submit {
+	right: 163px;
+}
+
+#reset {
+	
+}
